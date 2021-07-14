@@ -49,11 +49,11 @@ console.log(truth)
 
 
 function showName (name, surname) {
-    var fullName = name + ' ' + surname;
+    let fullName = name + ' ' + surname;
     return fullName;
 }
-var romanName = 'Roman';
-var romanSurname = 'Blokha';
-var romanFullName = showName(romanName, romanSurname);
+let romanName = 'Roman';
+let romanSurname = 'Blokha';
+let romanFullName = showName(romanName, romanSurname);
 
 console.log(romanFullName);
